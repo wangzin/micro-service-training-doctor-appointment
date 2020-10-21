@@ -1,0 +1,50 @@
+2020-10-20 13:02:28.288  INFO 11164 --- [main] rAppointmentCreateAppointmentApplication : Starting DoctorAppointmentCreateAppointmentApplication on DESKTOP-V05VR70 with PID 11164 (D:\office\training materials\microservices 12-10-2020\training workspace\doctor-appointment-createAppointment\target\classes started by Dell in D:\office\training materials\microservices 12-10-2020\training workspace\doctor-appointment-createAppointment)
+2020-10-20 13:02:28.290  INFO 11164 --- [main] rAppointmentCreateAppointmentApplication : No active profile set, falling back to default profiles: default
+2020-10-20 13:02:29.107  INFO 11164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-20 13:02:29.120  INFO 11164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-20 13:02:29.120  INFO 11164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-20 13:02:29.191  INFO 11164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-20 13:02:29.191  INFO 11164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 846 ms
+2020-10-20 13:02:29.349  INFO 11164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-20 13:02:29.357 DEBUG 11164 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-20 13:02:29.399 DEBUG 11164 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-10-20 13:02:29.401  INFO 11164 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-10-20 13:02:29.418 DEBUG 11164 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-20 13:02:29.424 DEBUG 11164 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-20 13:02:29.522  INFO 11164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-20 13:02:29.532  INFO 11164 --- [main] rAppointmentCreateAppointmentApplication : Started DoctorAppointmentCreateAppointmentApplication in 1.572 seconds (JVM running for 2.344)
+2020-10-20 13:02:47.858  INFO 2220 --- [main] rAppointmentCreateAppointmentApplication : Starting DoctorAppointmentCreateAppointmentApplication on DESKTOP-V05VR70 with PID 2220 (D:\office\training materials\microservices 12-10-2020\training workspace\doctor-appointment-createAppointment\target\classes started by Dell in D:\office\training materials\microservices 12-10-2020\training workspace\doctor-appointment-createAppointment)
+2020-10-20 13:02:47.861  INFO 2220 --- [main] rAppointmentCreateAppointmentApplication : No active profile set, falling back to default profiles: default
+2020-10-20 13:02:48.559  INFO 2220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-20 13:02:48.567  INFO 2220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-20 13:02:48.567  INFO 2220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-20 13:02:48.641  INFO 2220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-20 13:02:48.641  INFO 2220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 724 ms
+2020-10-20 13:02:48.771  INFO 2220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-20 13:02:48.784 DEBUG 2220 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-20 13:02:48.821 DEBUG 2220 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-10-20 13:02:48.823  INFO 2220 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-10-20 13:02:48.837 DEBUG 2220 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-20 13:02:48.843 DEBUG 2220 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-20 13:02:48.933  WARN 2220 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8083 is already in use
+2020-10-20 13:02:48.935  INFO 2220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-20 13:02:48.938  INFO 2220 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-20 13:02:48.953  INFO 2220 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-20 13:02:48.957 ERROR 2220 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2020-10-20 13:02:54.841  INFO 11164 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-20 13:02:54.927  INFO 11164 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
